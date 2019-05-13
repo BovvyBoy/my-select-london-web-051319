@@ -1,3 +1,5 @@
 def my_select(collection)
- # your code here!
+ collection.select do |element|
+   yield element
+ end
 end
